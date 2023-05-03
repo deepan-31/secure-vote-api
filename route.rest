@@ -1,0 +1,85 @@
+GET http://localhost:3000/voters
+
+###
+
+GET http://localhost:3000/voters/642fbce58134140baabc0988
+
+
+###
+
+POST http://localhost:3000/voters
+Content-Type: application/json
+
+{
+    "name" : "abjith",
+    "aadharNumber" : "908768978673",
+    "password" : "dFn@1234",
+    "phoneNumber" : "6385315890"
+}
+###
+
+POST http://localhost:3000/voters
+Content-Type: application/json
+
+{
+    "name" : "koniegb",
+    "aadharNumber" : "908768978673",
+    "password" : "dFn@1234",
+    "phoneNumber" : "6385315890"
+}
+
+
+###
+
+DELETE http://localhost:3000/voters/642fbb1c1a501660794ef463
+
+
+###
+
+
+PATCH http://localhost:3000/voters/642fbb1c1a501660794ef463
+
+
+
+###
+GET http://localhost:3000/voters/908768978672
+
+
+###
+GET http://localhost:3000/admins
+
+###
+POST http://localhost:3000/admins
+Content-Type: application/json
+
+{
+    "name" : "Dev Prakash",
+    "employeeId" : "eci_2",
+    "password" : "dFn@4321",
+    "phoneNumber" : "9898989898"
+}
+
+
+###
+
+
+POST http://localhost:3000/createCandidates
+Content-Type: application/json
+
+{
+    "name" : "Pranesh Thalaivar",
+    "aadharNumber" : "908768978999",
+    "party": "AnAzhagan",
+    "partyLogoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Automobile_Association_logo.svg/2048px-The_Automobile_Association_logo.svg.png",
+    "phoneNumber" : "6385315888"
+}
+
+###
+
+GET http://localhost:3000/createCandidates
+
+
+###
+GET http://localhost:3000/createCandidates/908768978999
+
+

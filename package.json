@@ -1,0 +1,22 @@
+{
+  "name": "mevn",
+  "version": "1.0.0",
+  "description": "Secure voting api",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "deepan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "twilio": "^4.10.0"
+  }
+}
